@@ -1,6 +1,6 @@
 {
   "name": "create-teko",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Scaffold a new Teko app",
   "type": "module",
   "bin": {

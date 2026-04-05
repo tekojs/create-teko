@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.1](https://github.com/tekojs/create-teko/compare/v1.4.0...v1.4.1) (2026-04-05)
+
+
+### Bug Fixes
+
+* include cli.js in build and fix bin path ([3030c1d](https://github.com/tekojs/create-teko/commit/3030c1d37e1ec6cee01b1c8b9e3c95a1b1ed6a5e))
+* include src/cli.ts in build and fix bin import path ([fabd850](https://github.com/tekojs/create-teko/commit/fabd85062246dfac16e36ceeed2ca93862a62bb0))
+
 ## [1.4.0](https://github.com/tekojs/create-teko/compare/v1.3.0...v1.4.0) (2026-04-05)
 
 
