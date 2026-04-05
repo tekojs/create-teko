@@ -20,11 +20,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tekojs/core.git"
+    "url": "git+https://github.com/tekojs/create-teko.git"
   },
-  "homepage": "https://github.com/tekojs/core#readme",
+  "homepage": "https://github.com/tekojs/create-teko#readme",
   "bugs": {
-    "url": "https://github.com/tekojs/core/issues"
+    "url": "https://github.com/tekojs/create-teko/issues"
   },
   "scripts": {
     "pretest": "npm run lint",
@@ -65,7 +65,7 @@
   },
   "keywords": [
     "teko",
-    "ssr",
+    "create-teko",
     "templates",
     "frontend"
   ],
