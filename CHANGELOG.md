@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/tekojs/create-teko/compare/v1.3.0...v1.4.0) (2026-04-05)
+
+
+### Features
+
+* consigurando o template ([18f181c](https://github.com/tekojs/create-teko/commit/18f181c46a9e48e4902076d6489c102136cdc242))
+
 ## [1.3.0](https://github.com/tekojs/create-teko/compare/v1.2.0...v1.3.0) (2026-04-05)
 
 
