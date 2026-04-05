@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/tekojs/create-teko/compare/v1.1.0...v1.2.0) (2026-04-05)
+
+
+### Features
+
+* commit inicial do porjeto ([3c432b8](https://github.com/tekojs/create-teko/commit/3c432b854bcb8489f8f2e68623a5c48512939b18))
+* consigurando o template ([90d3863](https://github.com/tekojs/create-teko/commit/90d386346026f389a151baf215eb2ee211873197))
+
 ## [1.1.0](https://github.com/tekojs/create-teko/compare/v1.0.0...v1.1.0) (2026-04-05)
 
 
