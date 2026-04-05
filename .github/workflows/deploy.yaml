@@ -24,7 +24,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   npm-deploy:
-    needs: gh-pkg-deploy
     runs-on: ubuntu-latest
     permissions:
       contents: read
