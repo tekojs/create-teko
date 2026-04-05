@@ -1,0 +1,25 @@
+@layouts.app({ title: 'Home' })
+  @slot('meta')
+    <meta name="description" content="Página inicial do Teko">
+  @end
+
+  @slot('main')
+    <h1>Olá, {{ user.name }}</h1>
+
+    @if(user.loggedIn)
+      <p>Bem-vindo ao Teko.</p>
+    @else
+      <p>Faça login para continuar.</p>
+    @end
+
+    <ul>
+      @each(post in posts)
+        <li>{{ post }}</li>
+      @end
+    </ul>
+
+    @ui.button({})
+      Entrar
+    @end
+  @end
+@end

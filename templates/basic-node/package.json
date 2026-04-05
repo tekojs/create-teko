@@ -1,0 +1,36 @@
+{
+  "name": "my-teko-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server/app.js",
+    "build": "echo \"build ainda ser\u00e1 refinado\"",
+    "start": "node src/server/app.js"
+  },
+  "dependencies": {
+    "@tekojs/ssr": "^1.0.0",
+    "@tekojs/http": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tekojs/vite-plugin": "^1.0.0",
+    "vite": "^7.0.0",
+    "@arapucajs/tsconfig": "^1.0.0",
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@types/node": "^25.5.2",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "c8": "^11.0.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "del-cli": "^7.0.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "husky": "^9.1.7",
+    "prettier": "^3.5.2",
+    "qs": "^6.15.0",
+    "tsdown": "^0.21.7",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ $props.title ?? 'Teko App' }}</title>
+  @slot('meta')
+  @end
+</head>
+<body>
+  @slot('main')
+  @end
+</body>
+</html>
