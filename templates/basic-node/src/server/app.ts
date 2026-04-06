@@ -3,6 +3,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { createTeko } from '@tekojs/core'
 import { createExpressRouteHandler } from '@tekojs/http'
+import { createTekoViteAssets } from '@tekojs/vite-plugin'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -19,8 +20,14 @@ const teko = createTeko({
   cache: true,
 })
 
+const assets = await createTekoViteAssets({
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
+  entry: 'src/client/main.ts',
+})
+
 teko.share({
   appName: 'Teko App',
+  $assets: assets,
 })
 
 app.get(
