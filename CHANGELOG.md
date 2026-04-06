@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/tekojs/create-teko/compare/v1.4.1...v1.5.0) (2026-04-06)
+
+
+### Features
+
+* novas funcionalidades para create ([4f15a01](https://github.com/tekojs/create-teko/commit/4f15a017fed29f105334abbdc31ae29ead369152))
+
 ## [1.4.1](https://github.com/tekojs/create-teko/compare/v1.4.0...v1.4.1) (2026-04-05)
 
 
