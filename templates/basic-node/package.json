@@ -3,13 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node --watch src/server/app.js",
-    "build": "echo \"build ainda ser\u00e1 refinado\"",
-    "start": "node src/server/app.js"
+    "dev": "node --watch --experimental-strip-types src/server/app.ts",
+    "build": "vite build && tsc --noEmit",
+    "start": "node --experimental-strip-types src/server/app.ts"
   },
   "dependencies": {
-    "@tekojs/ssr": "^1.0.0",
-    "@tekojs/http": "^1.0.0"
+    "@tekojs/core": "^2.0.2",
+    "@tekojs/http": "^1.1.1",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@tekojs/vite-plugin": "^1.2.0",
@@ -31,6 +32,9 @@
     "qs": "^6.15.0",
     "tsdown": "^0.21.7",
     "tsup": "^8.5.1",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "@types/chai": "^5.2.3",
+    "@types/dedent": "^0.7.2",
+    "@types/express": "^5.0.6"
   }
 }

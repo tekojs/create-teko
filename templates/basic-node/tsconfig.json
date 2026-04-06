@@ -3,5 +3,7 @@
   "compilerOptions": {
     "rootDir": "./",
     "outDir": "./dist"
-  }
+  },
+  "include": ["src/**/*", "vite.config.ts", "teko.config.ts"]
+
 }
